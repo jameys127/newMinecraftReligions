@@ -1,5 +1,6 @@
 package net.jameys127.religion.item;
 
+import net.jameys127.religion.ModBlocks;
 import net.jameys127.religion.myReligionMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -17,8 +18,13 @@ public class ModCreativeModTabs {
             () -> CreativeModeTab.builder().icon(() -> new ItemStack(ModItems.MITHRIL.get()))
                     .title(Component.translatable("creativetab.religion_tab"))
                     .displayItems((pParameters, pOutput) -> {
+                        //items
                         pOutput.accept(ModItems.MITHRIL.get());
                         pOutput.accept(ModItems.RAW_MITHRIL.get());
+                        //blocks
+                        pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
+                        pOutput.accept(ModBlocks.MITHRIL_ORE_BLOCK.get());
+                        pOutput.accept(ModBlocks.MITHRIL_DEEPSLATE_ORE_BLOCK.get());
                     })
                     .build());
 

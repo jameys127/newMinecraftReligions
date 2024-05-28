@@ -2,9 +2,9 @@
   "item.religion.mithril": "Mithril",
   "item.religion.raw_mithril": "Raw Mithril",
 
-
-
-
+  "block.religion.mithril_block": "Block of Mithril",
+  "block.religion.mithril_ore_block": "Mithril Ore",
+  "block.religion.mithril_deepslate_ore_block": "Deepslate Mithril Ore",
 
   "creativetab.religion_tab": "Religion Tab"
 }

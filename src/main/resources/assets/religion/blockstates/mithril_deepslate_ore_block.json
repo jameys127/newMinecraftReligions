@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "religion:block/mithril_deepslate_ore_block"
+    }
+  }
+}
