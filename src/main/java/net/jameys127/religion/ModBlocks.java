@@ -2,6 +2,7 @@ package net.jameys127.religion;
 
 import net.jameys127.religion.item.ModItems;
 import net.minecraft.client.resources.model.Material;
+import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
 import net.minecraft.world.level.block.Block;
@@ -24,9 +25,11 @@ public class ModBlocks {
     public static final RegistryObject<Block> MITHRIL_BLOCK = registerBlock("mithril_block",
             () -> new Block(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
     public static final RegistryObject<Block> MITHRIL_ORE_BLOCK = registerBlock("mithril_ore_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().strength(5.0f, 6.0f).sound(SoundType.STONE)));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().requiresCorrectToolForDrops().strength(5.0f, 6.0f).sound(SoundType.STONE),
+                    UniformInt.of(3, 8)));
     public static final RegistryObject<Block> MITHRIL_DEEPSLATE_ORE_BLOCK = registerBlock("mithril_deepslate_ore_block",
-            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE).strength(5.5f, 6.5f).requiresCorrectToolForDrops()));
+            () -> new DropExperienceBlock(BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE).strength(5.5f, 6.5f).requiresCorrectToolForDrops(),
+                    UniformInt.of(3, 8)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){
