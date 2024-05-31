@@ -1,6 +1,7 @@
 package net.jameys127.religion.item;
 
 import net.jameys127.religion.ModBlocks;
+import net.jameys127.religion.item.custom.MetalDetectorItem;
 import net.jameys127.religion.myReligionMod;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
@@ -21,6 +22,7 @@ public class ModCreativeModTabs {
                         //items
                         pOutput.accept(ModItems.MITHRIL.get());
                         pOutput.accept(ModItems.RAW_MITHRIL.get());
+                        pOutput.accept(ModItems.METAL_DETECTOR.get());
                         //blocks
                         pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_BLOCK.get());
