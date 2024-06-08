@@ -1,7 +1,8 @@
-package net.jameys127.religion;
+package net.jameys127.religion.block;
 
+import net.jameys127.religion.block.custom.SoundBlock;
 import net.jameys127.religion.item.ModItems;
-import net.minecraft.client.resources.model.Material;
+import net.jameys127.religion.myReligionMod;
 import net.minecraft.util.valueproviders.UniformInt;
 import net.minecraft.world.item.BlockItem;
 import net.minecraft.world.item.Item;
@@ -10,7 +11,6 @@ import net.minecraft.world.level.block.Blocks;
 import net.minecraft.world.level.block.DropExperienceBlock;
 import net.minecraft.world.level.block.SoundType;
 import net.minecraft.world.level.block.state.BlockBehaviour;
-import net.minecraftforge.common.Tags;
 import net.minecraftforge.eventbus.api.IEventBus;
 import net.minecraftforge.registries.DeferredRegister;
 import net.minecraftforge.registries.ForgeRegistries;
@@ -30,6 +30,8 @@ public class ModBlocks {
     public static final RegistryObject<Block> MITHRIL_DEEPSLATE_ORE_BLOCK = registerBlock("mithril_deepslate_ore_block",
             () -> new DropExperienceBlock(BlockBehaviour.Properties.of().sound(SoundType.DEEPSLATE).strength(5.5f, 6.5f).requiresCorrectToolForDrops(),
                     UniformInt.of(3, 8)));
+    public static final RegistryObject<Block> SOUND_BLOCK = registerBlock("sound_block",
+            () -> new SoundBlock(BlockBehaviour.Properties.copy(Blocks.IRON_BLOCK)));
 
 
     private static <T extends Block> RegistryObject<T> registerBlock(String name, Supplier<T> block){

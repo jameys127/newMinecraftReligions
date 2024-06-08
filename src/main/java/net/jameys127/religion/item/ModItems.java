@@ -20,6 +20,10 @@ public class ModItems {
     public static final RegistryObject<Item> METAL_DETECTOR = ITEMS.register("metal_detector",
             () -> new MetalDetectorItem(new Item.Properties().durability(100).fireResistant()));
 
+    public static final RegistryObject<Item> SWEET_FLESH = ITEMS.register("sweet_flesh",
+            () -> new Item(new Item.Properties().food(ModFoods.SWEET_FLESH)));
+
+
 
 
     public static void register(IEventBus eventBus) {

@@ -1,7 +1,7 @@
 package net.jameys127.religion;
 
 import com.mojang.logging.LogUtils;
-import net.jameys127.religion.item.ModCreativeModTabs;
+import net.jameys127.religion.block.ModBlocks;
 import net.jameys127.religion.item.ModItems;
 import net.minecraft.world.item.CreativeModeTabs;
 import net.minecraftforge.api.distmarker.Dist;

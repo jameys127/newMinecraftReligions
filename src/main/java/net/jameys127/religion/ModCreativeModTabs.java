@@ -1,8 +1,7 @@
-package net.jameys127.religion.item;
+package net.jameys127.religion;
 
-import net.jameys127.religion.ModBlocks;
-import net.jameys127.religion.item.custom.MetalDetectorItem;
-import net.jameys127.religion.myReligionMod;
+import net.jameys127.religion.block.ModBlocks;
+import net.jameys127.religion.item.ModItems;
 import net.minecraft.core.registries.Registries;
 import net.minecraft.network.chat.Component;
 import net.minecraft.world.item.CreativeModeTab;
@@ -23,10 +22,13 @@ public class ModCreativeModTabs {
                         pOutput.accept(ModItems.MITHRIL.get());
                         pOutput.accept(ModItems.RAW_MITHRIL.get());
                         pOutput.accept(ModItems.METAL_DETECTOR.get());
+                        //foods
+                        pOutput.accept(ModItems.SWEET_FLESH.get());
                         //blocks
                         pOutput.accept(ModBlocks.MITHRIL_BLOCK.get());
                         pOutput.accept(ModBlocks.MITHRIL_ORE_BLOCK.get());
                         pOutput.accept(ModBlocks.MITHRIL_DEEPSLATE_ORE_BLOCK.get());
+                        pOutput.accept(ModBlocks.SOUND_BLOCK.get());
                     })
                     .build());
 

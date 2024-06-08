@@ -2,10 +2,12 @@
   "item.religion.mithril": "Mithril",
   "item.religion.raw_mithril": "Raw Mithril",
   "item.religion.metal_detector": "Metal Detector",
+  "item.religion.sweet_flesh": "Sweet Flesh",
 
   "block.religion.mithril_block": "Block of Mithril",
   "block.religion.mithril_ore_block": "Mithril Ore",
   "block.religion.mithril_deepslate_ore_block": "Deepslate Mithril Ore",
+  "block.religion.sound_block": "Sound Block",
 
   "creativetab.religion_tab": "Religion Tab"
 }

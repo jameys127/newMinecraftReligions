@@ -1,0 +1,7 @@
+{
+  "variants": {
+    "": {
+      "model": "religion:block/sound_block"
+    }
+  }
+}
