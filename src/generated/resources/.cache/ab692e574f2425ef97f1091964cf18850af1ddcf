@@ -1,0 +1,13 @@
+// 1.20.1	2024-06-09T18:43:30.824275	Block States: religion
+2a9efe7ad589bf972de18214c87888a0eb9bfc91 assets/religion/blockstates/mithril_block.json
+7ac46fa3d90938c2bcd177309cc7bd833efac74a assets/religion/blockstates/mithril_deepslate_ore_block.json
+dc831d73646dc956a843cac261079951c5231ec2 assets/religion/blockstates/mithril_ore_block.json
+303344b7dff0e1f505f52d2fcce11ed01bdfb028 assets/religion/blockstates/sound_block.json
+7ba45aeb70aee9ca81cd6b7847499037f254b18f assets/religion/models/block/mithril_block.json
+02d904ee4e4c0d8d0228e14edf3d512001d29587 assets/religion/models/block/mithril_deepslate_ore_block.json
+14de1e8ee8db9f846bba825e35e4a8a302b7dc66 assets/religion/models/block/mithril_ore_block.json
+ddf92b847e87deb6597abf8a8fc2e676c61315aa assets/religion/models/block/sound_block.json
+e6fd1652494a668ef3d97307749eb3a71217ace3 assets/religion/models/item/mithril_block.json
+deb90783c8801fa56fc921d8873caf0554b904b2 assets/religion/models/item/mithril_deepslate_ore_block.json
+a6d71a9f2f486160313610ee99c8632d60ec96ee assets/religion/models/item/mithril_ore_block.json
+c8570b26c2e6a13e9273d85bc48d249883eb6535 assets/religion/models/item/sound_block.json

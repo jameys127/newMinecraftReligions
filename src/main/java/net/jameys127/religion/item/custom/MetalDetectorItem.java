@@ -1,5 +1,6 @@
 package net.jameys127.religion.item.custom;
 
+import net.jameys127.religion.tag.ModTags;
 import net.minecraft.client.resources.language.I18n;
 import net.minecraft.core.BlockPos;
 import net.minecraft.network.chat.Component;
@@ -54,8 +55,7 @@ public class MetalDetectorItem extends Item {
     }
 
     private boolean isValuableBlock(BlockState state){
-        return state.is(Blocks.IRON_ORE) || state.is(Blocks.GOLD_ORE) || state.is(Blocks.DIAMOND_ORE) || state.is(Blocks.EMERALD_ORE) ||
-                state.is(Blocks.COAL_ORE) || state.is(Blocks.LAPIS_ORE) || state.is(Blocks.REDSTONE_ORE) || state.is(Blocks.COPPER_ORE);
+        return state.is(ModTags.Blocks.METAL_DETECTOR_VALUABLES);
 
     }
 }

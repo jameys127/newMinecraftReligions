@@ -1,0 +1,7 @@
+// 1.20.1	2024-06-09T18:29:24.8250839	Tags for minecraft:block mod id religion
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/forge/tags/blocks/needs_netherite_tool.json
+ef5285c2d36e0d66014735215f54c11d51f7beff data/minecraft/tags/blocks/mineable/pickaxe.json
+91154203e225176c0423efb58959392dfb7333a7 data/minecraft/tags/blocks/needs_diamond_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_iron_tool.json
+35133e95f1c8fdd7a1c21afcc231fc0bffefb9a8 data/minecraft/tags/blocks/needs_stone_tool.json
+85774e2ff840135ae6854a7081c9d9d6431c03bd data/religion/tags/blocks/metal_detector_valuables.json

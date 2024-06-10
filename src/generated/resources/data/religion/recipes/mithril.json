@@ -1,0 +1,13 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    {
+      "item": "religion:mithril_block"
+    }
+  ],
+  "result": {
+    "count": 9,
+    "item": "religion:mithril"
+  }
+}
